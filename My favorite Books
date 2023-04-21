@@ -1,0 +1,9 @@
+CREATE TABLE books
+(id  integer PRIMARY KEY, name text, rating integer);
+
+INSERT INTO books
+VALUES 
+(1, 'Song of Solomon', 3),
+(2, 'Pillars of the Earth', 2),
+(3, 'New England White', 1)
+
